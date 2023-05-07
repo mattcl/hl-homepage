@@ -5,7 +5,7 @@ metadata:
   name: homepage
   namespace: homepage
   annotations:
-    kuberentes.io/ingress.class: traefik-external
+    kubernetes.io/ingress.class: traefik-external
 spec:
   entryPoints:
     - websecure
