@@ -1,1 +1,3 @@
-background: /images/ac1.jpg
+background:
+  image: /images/ac1.jpg
+  opacity: 50
