@@ -17,5 +17,5 @@ configMapGenerator:
       - settings.yaml=config/settings.yaml
       - bookmarks.yaml=config/bookmarks.yaml
       - services.yaml=config/services.yaml
-      - widgest.yaml=config/widgets.yaml
+      - widgets.yaml=config/widgets.yaml
       - docker.yaml=config/docker.yaml
