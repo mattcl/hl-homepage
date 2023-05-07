@@ -38,6 +38,8 @@ spec:
               mountPath: /app/config
             - name: logs
               mountPath: /app/config/logs
+            - name: homepage-images
+              mountPath: /app/public/images
       volumes:
         - configMap:
             name: homepage
@@ -45,3 +47,6 @@ spec:
         - name: logs
           emptyDir:
             {}
+        - name: homepage-images
+          persistentVolumeClaim:
+            claimName: homepage-images-pvc
