@@ -1,0 +1,12 @@
+- CI/CD:
+  - Argo CD:
+    href: https://argocd.hl.ancalagon.black
+    description: GitOps deploys for kubernetes cluster
+
+- Cluster Info:
+  - traefik:
+    href: https://traefik.hl.ancalagon.black
+    description: traefik reverse proxy routing dashboard
+  - scrutiny:
+    href: http://chiark.home:8080
+    description: SMART disk monitoring dashboard

@@ -1,0 +1,20 @@
+---
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: homepage
+  namespace: homepage
+  annotations:
+    kuberentes.io/ingress.class: traefik-external
+spec:
+  entryPoints:
+    - websecure
+  routes:
+    - kind: Rule
+      match: Host(`dash.hl.ancalagon.black`)
+      priority: 10
+      services:
+        - name: homepage
+          port: 3000
+  tls:
+    certResolver: default
