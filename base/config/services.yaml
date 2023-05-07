@@ -16,6 +16,9 @@
       href: http://chiark.home:8080
       ping: http://chiark.home:8080
       description: SMART disk monitoring dashboard
+      widget:
+        type: scrutiny
+        url: http://chiark.home:8080
 
 - Networking:
   - pi-hole:
