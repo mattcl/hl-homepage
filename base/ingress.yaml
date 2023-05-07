@@ -15,6 +15,6 @@ spec:
       priority: 10
       services:
         - name: homepage
-          port: 3000
+          port: 80
   tls:
     certResolver: default
