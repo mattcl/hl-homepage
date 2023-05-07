@@ -13,3 +13,9 @@
       href: http://chiark.home:8080
       ping: http://chiark.home:8080
       description: SMART disk monitoring dashboard
+
+- Networking:
+  - pi-hole:
+      href: http://192.168.1.193/admin
+      ping: http://192.168.1.193/admin
+      description: DNS server and adblocker
