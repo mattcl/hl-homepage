@@ -20,7 +20,6 @@ rules:
       - networking.k8s.io
     resources:
       - ingresses
-      - ingressroutes
     verbs:
       - get
       - list
@@ -29,6 +28,13 @@ rules:
     resources:
       - nodes
       - pods
+    verbs:
+      - get
+      - list
+  - apiGroups:
+      - traefik.containo.us
+    resources:
+      - ingressroutes
     verbs:
       - get
       - list
