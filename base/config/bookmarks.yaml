@@ -7,5 +7,6 @@
       href: https://crates.io
 
 - Social:
-  - icon: reddit.png
-    href: https://old.reddit.com
+  - reddit:
+    - icon: reddit.png
+      href: https://old.reddit.com
