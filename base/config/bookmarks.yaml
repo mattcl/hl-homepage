@@ -1,7 +1,11 @@
-- Developer:
-   - github:
-      - abbr: GH
-        href: https://github.com/mattcl
-   - crates.io:
-      - abbr: CR
-        href: https://crates.io
+- Dev:
+  - github:
+    - icon: github.png
+      href: https://github.com/mattcl
+  - crates.io:
+    - icon: rust.png
+      href: https://crates.io
+
+- Social:
+  - icon: reddit.png
+    href: https://old.reddit.com

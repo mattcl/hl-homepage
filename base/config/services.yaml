@@ -1,4 +1,11 @@
-- cluster tools:
+- Services:
+  - Concourse Papercode:
+      icon: concourse.png
+      href: http://ci.papercode.net:8080
+      ping: http://ci.papercode.net:8080
+      description: Papercode CI server
+
+- Cluster tools:
   - Argo CD:
       icon: argocd.png
       href: https://argocd.hl.ancalagon.black
