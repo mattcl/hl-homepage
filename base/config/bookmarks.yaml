@@ -1,6 +1,6 @@
 - Dev:
   - github:
-    - icon: github.png
+    - icon: github-light.png
       href: https://github.com/mattcl
   - crates.io:
     - icon: rust.png
