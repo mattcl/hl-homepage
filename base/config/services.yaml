@@ -1,6 +1,6 @@
 - Media:
   - Stump:
-      icon: /images/stump-logo--irregular.png
+      icon: /icons/stump-logo--irregular.png
       href: https://stump.hl.ancalagon.black
       ping: https://stump.hl.ancalagon.black
       description: Digital book, comic, and OPDS server.
