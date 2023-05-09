@@ -51,7 +51,7 @@ spec:
             {}
         - name: homepage-icons
           persistentVolumeClaim:
-            claimName: homepage-images-pvc
+            claimName: homepage-icons-pvc
         - name: homepage-icons
           persistentVolumeClaim:
             claimName: homepage-images-pvc
