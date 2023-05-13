@@ -10,7 +10,7 @@
       icon: mdi-two-factor-authentication
       href: https://2fa.hl.ancalagon.black
       ping: https://2fa.hl.ancalagon.black
-      description: Internal OTP generator
+      description: Internal 2FA generator
 
   - Concourse Papercode:
       icon: concourse.png
