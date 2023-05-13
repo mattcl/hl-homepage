@@ -6,6 +6,12 @@
       description: Digital book, comic, and OPDS server.
 
 - Services:
+  - 2FA:
+      icon: mdi-two-factor-authentication
+      href: https://2fa.hl.ancalagon.black
+      ping: https://2fa.hl.ancalagon.black
+      description: Internal OTP generator
+
   - Concourse Papercode:
       icon: concourse.png
       href: http://ci.papercode.net:8080
