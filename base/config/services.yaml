@@ -10,30 +10,36 @@
       icon: mdi-two-factor-authentication
       href: https://2fa.hl.ancalagon.black
       ping: https://2fa.hl.ancalagon.black
-      description: Internal 2FA generator
+      description: Internal 2FA generator.
 
   - Concourse Papercode:
       icon: concourse.png
       href: http://ci.papercode.net:8080
       ping: http://ci.papercode.net:8080
-      description: Papercode CI server
+      description: Papercode CI server.
+
+  - ntfy:
+      icon: ntfy-light.png
+      href: https://ntfy.hl.ancalagon.black
+      ping: https://ntfy.hl.ancalagon.black
+      description: Internal Pub/Sub notifications.
 
 - Cluster tools:
   - Argo CD:
       icon: argocd.png
       href: https://argocd.hl.ancalagon.black
       ping: https://argocd.hl.ancalagon.black
-      description: GitOps deploys for kubernetes cluster
+      description: GitOps deploys for kubernetes cluster.
   - traefik:
       icon: traefik.png
       href: https://traefik.hl.ancalagon.black
       ping: https://traefik.hl.ancalagon.black
-      description: traefik reverse proxy routing dashboard
+      description: traefik reverse proxy routing dashboard.
   - scrutiny:
       icon: scrutiny-light.png
       href: http://chiark.home:8080
       ping: http://chiark.home:8080
-      description: SMART disk monitoring dashboard
+      description: SMART disk monitoring dashboard.
       widget:
         type: scrutiny
         url: http://chiark.home:8080
@@ -43,9 +49,9 @@
       icon: pi-hole.png
       href: http://192.168.1.193/admin
       ping: http://192.168.1.193/admin
-      description: DNS server and adblocker
+      description: DNS server and adblocker.
   - Synology NAS:
       icon: synology-dsm
       href: http://sleeper-service.home:5000
       ping: http://sleeper-service.home:5000
-      description: Primary NAS
+      description: Primary NAS.
