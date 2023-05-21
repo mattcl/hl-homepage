@@ -18,12 +18,6 @@
       ping: http://ci.papercode.net:8080
       description: Papercode CI server.
 
-  - mealie:
-      icon: mealie.png
-      href: https://mealie.hl.ancalagon.black
-      ping: https://mealie.hl.ancalagon.black
-      description: Recipe database and meal planning.
-
   - ntfy:
       icon: ntfy-light.png
       href: https://ntfy.hl.ancalagon.black
