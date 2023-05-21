@@ -30,6 +30,12 @@
       ping: https://ntfy.hl.ancalagon.black
       description: Internal Pub/Sub notifications.
 
+  - tandoor:
+      icon: tandoor.png
+      href: https://tandoor.hl.ancalagon.black
+      ping: https://tandoor.hl.ancalagon.black
+      description: Recipe database and meal planning.
+
 - Cluster tools:
   - Argo CD:
       icon: argocd.png
