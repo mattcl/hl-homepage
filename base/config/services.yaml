@@ -36,11 +36,11 @@
       href: https://argocd.hl.ancalagon.black
       ping: https://argocd.hl.ancalagon.black
       description: GitOps deploys for kubernetes cluster.
-  - traefik:
+  - traefik-internal:
       icon: traefik.png
       href: https://traefik.hl.ancalagon.black
       ping: https://traefik.hl.ancalagon.black
-      description: traefik reverse proxy routing dashboard.
+      description: traefik internal reverse proxy routing dashboard.
   - scrutiny:
       icon: scrutiny-light.png
       href: http://chiark.home:8080
