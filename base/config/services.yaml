@@ -26,8 +26,8 @@
 
   - tandoor:
       icon: tandoor.png
-      href: https://tandoor.hl.ancalagon.black
-      ping: https://tandoor.hl.ancalagon.black
+      href: https://tandoor.ancalagon.black
+      ping: https://tandoor.ancalagon.black
       description: Recipe database and meal planning.
 
 - Cluster tools:
