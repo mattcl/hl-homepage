@@ -40,7 +40,12 @@
       icon: traefik.png
       href: https://traefik.hl.ancalagon.black
       ping: https://traefik.hl.ancalagon.black
-      description: traefik internal reverse proxy routing dashboard.
+      description: internal reverse proxy routing dashboard.
+  - traefik-external:
+      icon: traefik.png
+      href: https://traefik-external.ancalagon.black
+      ping: https://traefik-external.ancalagon.black
+      description: external reverse proxy routing dashboard.
   - scrutiny:
       icon: scrutiny-light.png
       href: http://chiark.home:8080
