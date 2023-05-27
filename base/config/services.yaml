@@ -1,4 +1,10 @@
 - Media:
+  - MeTube:
+      icon: metube.png
+      href: https://metube.hl.ancalagon.black
+      ping: https://metube.hl.ancalagon.black
+      description: YouTube (and others) downloader.
+
   - Stump:
       icon: /icons/stump-logo--irregular.png
       href: https://stump.hl.ancalagon.black
