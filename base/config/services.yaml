@@ -1,8 +1,8 @@
 - Media:
   - Jellyfin:
       icon: jellyfin.png
-      href: https://chiark.home:8096
-      ping: https://chiark.home:8096
+      href: http://chiark.home:8096
+      ping: http://chiark.home:8096
       description: Media server.
 
   - Jellyseerr:
