@@ -1,4 +1,16 @@
 - Media:
+  - Jellyfin:
+      icon: jellyfin.png
+      href: https://chiark.home:8096
+      ping: https://chiark.home:8096
+      description: Media server.
+
+  - Jellyseerr:
+      icon: jellyseerr.png
+      href: https://jellyseerr.hl.ancalagon.black
+      ping: https://jellyseerr.hl.ancalagon.black
+      description: Media requests.
+
   - MeTube:
       icon: metube.png
       href: https://metube.hl.ancalagon.black
