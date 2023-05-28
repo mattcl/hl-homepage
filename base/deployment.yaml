@@ -31,12 +31,12 @@ spec:
           imagePullPolicy: Always
           env:
             - name: HOMEPAGE_VAR_JELLYSEERR_KEY
-              valueFrome:
+              valueFrom:
                 secretKeyRef:
                   name: homepage-secret
                   key: jellyseerr_key
             - name: HOMEPAGE_VAR_SABNZBD_KEY
-              valueFrome:
+              valueFrom:
                 secretKeyRef:
                   name: homepage-secret
                   key: sabnzbd_key
