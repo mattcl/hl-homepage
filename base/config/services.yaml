@@ -5,6 +5,36 @@
       ping: http://chiark.home:8096
       description: Media server.
 
+  - Jellyseerr:
+      icon: jellyseerr.png
+      href: https://jellyseerr.hl.ancalagon.black
+      ping: https://jellyseerr.hl.ancalagon.black
+      description: Media requests.
+      widget:
+        type: jellyseerr
+        url: https://jellyseerr.hl.ancalagon.black
+        key: "{{HOMEPAGE_VAR_JELLYSEERR_KEY}}"
+
+  - Radarr:
+      icon: radarr-light.png
+      href: https://radarr.hl.ancalagon.black
+      ping: https://radarr.hl.ancalagon.black
+      description: Movie requests.
+      widget:
+        type: radarr
+        url: https://radarr.hl.ancalagon.black
+        key: "{{HOMEPAGE_VAR_RADARR_KEY}}"
+
+  - Sonarr:
+      icon: sonarr.png
+      href: https://sonarr.hl.ancalagon.black
+      ping: https://sonarr.hl.ancalagon.black
+      description: TV show requests.
+      widget:
+        type: sonarr
+        url: https://sonarr.hl.ancalagon.black
+        key: "{{HOMEPAGE_VAR_SONARR_KEY}}"
+
   - Stump:
       icon: /icons/stump-logo--irregular.png
       href: https://stump.hl.ancalagon.black
@@ -17,44 +47,11 @@
       ping: https://tandoor.ancalagon.black
       description: Recipe database and meal planning.
 
-- Media Support:
-  - Jellyseerr:
-      icon: jellyseerr.png
-      href: https://jellyseerr.hl.ancalagon.black
-      ping: https://jellyseerr.hl.ancalagon.black
-      description: Media requests.
-      widget:
-        type: jellyseerr
-        url: https://jellyseerr.hl.ancalagon.black
-        key: "{{HOMEPAGE_VAR_JELLYSEERR_KEY}}"
-
-  - MeTube:
-      icon: metube.png
-      href: https://metube.hl.ancalagon.black
-      ping: https://metube.hl.ancalagon.black
-      description: YouTube (and others) downloader.
-
-  - Radarr:
-      icon: radarr-light.png
-      href: https://radarr.hl.ancalagon.black
-      ping: https://radarr.hl.ancalagon.black
-      description: Movie requests.
-
-  - Sonarr:
-      icon: sonarr.png
-      href: https://sonarr.hl.ancalagon.black
-      ping: https://sonarr.hl.ancalagon.black
-      description: TV show requests.
-
-  - SABnzbd:
-      icon: sabnzbd-alt.png
-      href: https://sabnzbd.hl.ancalagon.black
-      ping: https://sabnzbd.hl.ancalagon.black
-      description: Usenet client.
-      widget:
-        type: sabnzbd
-        url: https://sabnzbd.hl.ancalagon.black
-        key: "{{HOMEPAGE_VAR_SABNZBD_KEY}}"
+  - Synology NAS:
+      icon: synology-dsm
+      href: http://sleeper-service.home:5000
+      ping: http://sleeper-service.home:5000
+      description: Primary NAS.
 
 - Services:
   - 2FA:
@@ -74,6 +71,15 @@
       href: https://ntfy.hl.ancalagon.black
       ping: https://ntfy.hl.ancalagon.black
       description: Internal Pub/Sub notifications.
+
+  - pi-hole:
+      icon: pi-hole.png
+      href: http://192.168.1.193/admin
+      ping: http://192.168.1.193/admin
+      description: DNS server and adblocker.
+      widget:
+        type: pihole
+        url: http://192.168.1.193
 
 - Cluster tools:
   - Argo CD:
@@ -100,14 +106,19 @@
         type: scrutiny
         url: http://chiark.home:8080
 
-- Support:
-  - pi-hole:
-      icon: pi-hole.png
-      href: http://192.168.1.193/admin
-      ping: http://192.168.1.193/admin
-      description: DNS server and adblocker.
-  - Synology NAS:
-      icon: synology-dsm
-      href: http://sleeper-service.home:5000
-      ping: http://sleeper-service.home:5000
-      description: Primary NAS.
+- Download Clients:
+  - MeTube:
+      icon: metube.png
+      href: https://metube.hl.ancalagon.black
+      ping: https://metube.hl.ancalagon.black
+      description: YouTube (and others) downloader.
+
+  - SABnzbd:
+      icon: sabnzbd-alt.png
+      href: https://sabnzbd.hl.ancalagon.black
+      ping: https://sabnzbd.hl.ancalagon.black
+      description: Usenet client.
+      widget:
+        type: sabnzbd
+        url: https://sabnzbd.hl.ancalagon.black
+        key: "{{HOMEPAGE_VAR_SABNZBD_KEY}}"
