@@ -35,11 +35,26 @@ spec:
                 secretKeyRef:
                   name: homepage-secret
                   key: jellyseerr_key
+            - name: HOMEPAGE_VAR_RADARR_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: homepage-secret
+                  key: radarr_key
+            - name: HOMEPAGE_VAR_SONARR_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: homepage-secret
+                  key: sonarr_key
             - name: HOMEPAGE_VAR_SABNZBD_KEY
               valueFrom:
                 secretKeyRef:
                   name: homepage-secret
                   key: sabnzbd_key
+            - name: HOMEPAGE_VAR_PIHOLE_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: homepage-secret
+                  key: pihole_token
           ports:
             - name: http
               containerPort: 3000
