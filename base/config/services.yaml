@@ -23,6 +23,10 @@
       href: https://jellyseerr.hl.ancalagon.black
       ping: https://jellyseerr.hl.ancalagon.black
       description: Media requests.
+      widget:
+        type: jellyseerr
+        url: https://jellyseerr.hl.ancalagon.black
+        key: "{{HOMEPAGE_VAR_JELLYSEERR_KEY}}"
 
   - MeTube:
       icon: metube.png
@@ -47,6 +51,10 @@
       href: https://sabnzbd.hl.ancalagon.black
       ping: https://sabnzbd.hl.ancalagon.black
       description: Usenet client.
+      widget:
+        type: sabnzbd
+        url: https://sabnzbd.hl.ancalagon.black
+        key: "{{HOMEPAGE_VAR_SABNZBD_KEY}}"
 
 - Services:
   - 2FA:

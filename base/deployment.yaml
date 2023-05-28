@@ -29,6 +29,17 @@ spec:
         - name: homepage
           image: "ghcr.io/benphelps/homepage:latest"
           imagePullPolicy: Always
+          env:
+            - name: HOMEPAGE_VAR_JELLYSEERR_KEY
+              valueFrome:
+                secretKeyRef:
+                  name: homepage-secret
+                  key: jellyseerr_key
+            - name: HOMEPAGE_VAR_SABNZBD_KEY
+              valueFrome:
+                secretKeyRef:
+                  name: homepage-secret
+                  key: sabnzbd_key
           ports:
             - name: http
               containerPort: 3000
