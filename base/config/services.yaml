@@ -5,6 +5,19 @@
       ping: http://chiark.home:8096
       description: Media server.
 
+  - Stump:
+      icon: /icons/stump-logo--irregular.png
+      href: https://stump.hl.ancalagon.black
+      ping: https://stump.hl.ancalagon.black
+      description: Digital book, comic, and OPDS server.
+
+  - tandoor:
+      icon: tandoor.png
+      href: https://tandoor.ancalagon.black
+      ping: https://tandoor.ancalagon.black
+      description: Recipe database and meal planning.
+
+- Media Support:
   - Jellyseerr:
       icon: jellyseerr.png
       href: https://jellyseerr.hl.ancalagon.black
@@ -35,12 +48,6 @@
       ping: https://sabnzbd.hl.ancalagon.black
       description: Usenet client.
 
-  - Stump:
-      icon: /icons/stump-logo--irregular.png
-      href: https://stump.hl.ancalagon.black
-      ping: https://stump.hl.ancalagon.black
-      description: Digital book, comic, and OPDS server.
-
 - Services:
   - 2FA:
       icon: mdi-two-factor-authentication
@@ -59,12 +66,6 @@
       href: https://ntfy.hl.ancalagon.black
       ping: https://ntfy.hl.ancalagon.black
       description: Internal Pub/Sub notifications.
-
-  - tandoor:
-      icon: tandoor.png
-      href: https://tandoor.ancalagon.black
-      ping: https://tandoor.ancalagon.black
-      description: Recipe database and meal planning.
 
 - Cluster tools:
   - Argo CD:
