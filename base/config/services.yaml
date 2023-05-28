@@ -5,6 +5,24 @@
       ping: http://chiark.home:8096
       description: Media server.
 
+  - Stump:
+      icon: /icons/stump-logo--irregular.png
+      href: https://stump.hl.ancalagon.black
+      ping: https://stump.hl.ancalagon.black
+      description: Digital book, comic, and OPDS server.
+
+  - tandoor:
+      icon: tandoor.png
+      href: https://tandoor.ancalagon.black
+      ping: https://tandoor.ancalagon.black
+      description: Recipe database and meal planning.
+
+  - Synology NAS:
+      icon: synology-dsm
+      href: http://sleeper-service.home:5000
+      ping: http://sleeper-service.home:5000
+      description: Primary NAS.
+
   - Jellyseerr:
       icon: jellyseerr.png
       href: https://jellyseerr.hl.ancalagon.black
@@ -34,24 +52,6 @@
         type: sonarr
         url: https://sonarr.hl.ancalagon.black
         key: "{{HOMEPAGE_VAR_SONARR_KEY}}"
-
-  - Stump:
-      icon: /icons/stump-logo--irregular.png
-      href: https://stump.hl.ancalagon.black
-      ping: https://stump.hl.ancalagon.black
-      description: Digital book, comic, and OPDS server.
-
-  - tandoor:
-      icon: tandoor.png
-      href: https://tandoor.ancalagon.black
-      ping: https://tandoor.ancalagon.black
-      description: Recipe database and meal planning.
-
-  - Synology NAS:
-      icon: synology-dsm
-      href: http://sleeper-service.home:5000
-      ping: http://sleeper-service.home:5000
-      description: Primary NAS.
 
 - Services:
   - 2FA:
