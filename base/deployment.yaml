@@ -55,6 +55,16 @@ spec:
                 secretKeyRef:
                   name: homepage-secret
                   key: pihole_token
+            - name: HOMEPAGE_VAR_QBITTORRENT_USER
+              valueFrom:
+                secretKeyRef:
+                  name: homepage-secret
+                  key: qbittorrent_user
+            - name: HOMEPAGE_VAR_QBITTORRENT_PASS
+              valueFrom:
+                secretKeyRef:
+                  name: homepage-secret
+                  key: qbittorrent_pass
           ports:
             - name: http
               containerPort: 3000

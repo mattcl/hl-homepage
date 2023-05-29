@@ -125,6 +125,11 @@
       href: http://chiark.home:9077
       ping: http://chiark.home:9077
       description: Torrent client.
+      widget:
+        type: qbittorrent
+        url: http://chiark.home:9077
+        username: "{{HOMEPAGE_VAR_QBITTORRENT_USER}}"
+        password: "{{HOMEPAGE_VAR_QBITTORRENT_PASS}}"
 
   - SABnzbd:
       icon: sabnzbd-alt.png
