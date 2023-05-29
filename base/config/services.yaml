@@ -23,6 +23,12 @@
       ping: http://sleeper-service.home:5000
       description: Primary NAS.
 
+  - Prowlarr:
+      icon: prowlarr.png
+      href: https://prowlarr.hl.ancalagon.black
+      ping: https://prowlarr.hl.ancalagon.black
+      description: Indexer management.
+
   - Jellyseerr:
       icon: jellyseerr.png
       href: https://jellyseerr.hl.ancalagon.black
@@ -32,6 +38,7 @@
         type: jellyseerr
         url: https://jellyseerr.hl.ancalagon.black
         key: "{{HOMEPAGE_VAR_JELLYSEERR_KEY}}"
+        fields: ["approved", "available"]
 
   - Radarr:
       icon: radarr-light.png
@@ -42,6 +49,7 @@
         type: radarr
         url: https://radarr.hl.ancalagon.black
         key: "{{HOMEPAGE_VAR_RADARR_KEY}}"
+        fields: ["wanted", "missing", "queued"]
 
   - Sonarr:
       icon: sonarr.png
@@ -52,6 +60,7 @@
         type: sonarr
         url: https://sonarr.hl.ancalagon.black
         key: "{{HOMEPAGE_VAR_SONARR_KEY}}"
+        fields: ["wanted", "queued"]
 
   - Readarr:
       icon: readarr.png
@@ -62,6 +71,7 @@
         type: readarr
         url: https://readarr.hl.ancalagon.black
         key: "{{HOMEPAGE_VAR_READARR_KEY}}"
+        fields: ["wanted", "queued"]
 
 - Services:
   - 2FA:
@@ -91,12 +101,6 @@
         type: pihole
         url: http://192.168.1.193
         key: "{{HOMEPAGE_VAR_PIHOLE_TOKEN}}"
-
-  - Prowlarr:
-      icon: prowlarr.png
-      href: https://prowlarr.hl.ancalagon.black
-      ping: https://prowlarr.hl.ancalagon.black
-      description: Indexer management.
 
 - Cluster tools:
   - Argo CD:
