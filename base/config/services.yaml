@@ -53,6 +53,12 @@
         url: https://sonarr.hl.ancalagon.black
         key: "{{HOMEPAGE_VAR_SONARR_KEY}}"
 
+  - Prowlarr:
+      icon: prowlarr.png
+      href: https://prowlarr.hl.ancalagon.black
+      ping: https://prowlarr.hl.ancalagon.black
+      description: Indexer management.
+
 - Services:
   - 2FA:
       icon: mdi-two-factor-authentication
@@ -113,6 +119,12 @@
       href: https://metube.hl.ancalagon.black
       ping: https://metube.hl.ancalagon.black
       description: YouTube (and others) downloader.
+
+  - qbittorrent:
+      icon: qbittorrent.png
+      href: https://chiark.home:9077
+      ping: https://chiark.home:9077
+      description: Torrent client.
 
   - SABnzbd:
       icon: sabnzbd-alt.png
