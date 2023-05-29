@@ -122,8 +122,8 @@
 
   - qbittorrent:
       icon: qbittorrent.png
-      href: https://chiark.home:9077
-      ping: https://chiark.home:9077
+      href: http://chiark.home:9077
+      ping: http://chiark.home:9077
       description: Torrent client.
 
   - SABnzbd:
