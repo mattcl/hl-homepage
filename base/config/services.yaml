@@ -102,7 +102,7 @@
         url: http://192.168.1.193
         key: "{{HOMEPAGE_VAR_PIHOLE_TOKEN}}"
 
-- Cluster tools:
+- Cluster Tools:
   - Argo CD:
       icon: argocd.png
       href: https://argocd.hl.ancalagon.black
