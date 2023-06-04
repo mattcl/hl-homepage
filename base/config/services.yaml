@@ -40,16 +40,16 @@
         key: "{{HOMEPAGE_VAR_JELLYSEERR_KEY}}"
         fields: ["approved", "available"]
 
-  - Radarr:
-      icon: radarr-light.png
-      href: https://radarr.hl.ancalagon.black
-      ping: https://radarr.hl.ancalagon.black
-      description: Movie requests.
+  - Readarr:
+      icon: readarr.png
+      href: https://readarr.hl.ancalagon.black
+      ping: https://readarr.hl.ancalagon.black
+      description: Book requests.
       widget:
-        type: radarr
-        url: https://radarr.hl.ancalagon.black
-        key: "{{HOMEPAGE_VAR_RADARR_KEY}}"
-        fields: ["wanted", "missing", "queued"]
+        type: readarr
+        url: https://readarr.hl.ancalagon.black
+        key: "{{HOMEPAGE_VAR_READARR_KEY}}"
+        fields: ["wanted", "queued"]
 
   - Sonarr:
       icon: sonarr.png
@@ -62,16 +62,16 @@
         key: "{{HOMEPAGE_VAR_SONARR_KEY}}"
         fields: ["wanted", "queued"]
 
-  - Readarr:
-      icon: readarr.png
-      href: https://readarr.hl.ancalagon.black
-      ping: https://readarr.hl.ancalagon.black
-      description: Book requests.
+  - Radarr:
+      icon: radarr-light.png
+      href: https://radarr.hl.ancalagon.black
+      ping: https://radarr.hl.ancalagon.black
+      description: Movie requests.
       widget:
-        type: readarr
-        url: https://readarr.hl.ancalagon.black
-        key: "{{HOMEPAGE_VAR_READARR_KEY}}"
-        fields: ["wanted", "queued"]
+        type: radarr
+        url: https://radarr.hl.ancalagon.black
+        key: "{{HOMEPAGE_VAR_RADARR_KEY}}"
+        fields: ["wanted", "missing", "queued"]
 
 - Services:
   - 2FA:
