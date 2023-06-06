@@ -3,3 +3,21 @@ kind: Kustomization
 
 resources:
   - ../../base
+  - homepage-config-secret.yaml
+
+namespace: homepage
+commonLabels:
+  app.kubernetes.io/name: homepage
+
+configMapGenerator:
+  - name: homepage-config
+    files:
+      - kubernetes.yaml=config/kubernetes.yaml
+      - settings.yaml=config/settings.yaml
+      - bookmarks.yaml=config/bookmarks.yaml
+      - services.yaml=config/services.yaml
+      - widgets.yaml=config/widgets.yaml
+      - docker.yaml=config/docker.yaml
+  - name: secret-sentinel
+    files:
+      - homepage-config-secret.yaml

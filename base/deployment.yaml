@@ -2,21 +2,12 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: homepage
-  namespace: homepage
-  labels:
-    app.kubernetes.io/name: homepage
 spec:
   revisionHistoryLimit: 3
   replicas: 1
   strategy:
     type: RollingUpdate
-  selector:
-    matchLabels:
-      app.kubernetes.io/name: homepage
   template:
-    metadata:
-      labels:
-        app.kubernetes.io/name: homepage
     spec:
       serviceAccountName: homepage
       automountServiceAccountToken: true
@@ -29,47 +20,11 @@ spec:
         - name: homepage
           image: "ghcr.io/benphelps/homepage:latest"
           imagePullPolicy: Always
-          env:
-            - name: HOMEPAGE_VAR_JELLYSEERR_KEY
-              valueFrom:
-                secretKeyRef:
-                  name: homepage-secret
-                  key: jellyseerr_key
-            - name: HOMEPAGE_VAR_RADARR_KEY
-              valueFrom:
-                secretKeyRef:
-                  name: homepage-secret
-                  key: radarr_key
-            - name: HOMEPAGE_VAR_READARR_KEY
-              valueFrom:
-                secretKeyRef:
-                  name: homepage-secret
-                  key: readarr_key
-            - name: HOMEPAGE_VAR_SONARR_KEY
-              valueFrom:
-                secretKeyRef:
-                  name: homepage-secret
-                  key: sonarr_key
-            - name: HOMEPAGE_VAR_SABNZBD_KEY
-              valueFrom:
-                secretKeyRef:
-                  name: homepage-secret
-                  key: sabnzbd_key
-            - name: HOMEPAGE_VAR_PIHOLE_TOKEN
-              valueFrom:
-                secretKeyRef:
-                  name: homepage-secret
-                  key: pihole_token
-            - name: HOMEPAGE_VAR_QBITTORRENT_USER
-              valueFrom:
-                secretKeyRef:
-                  name: homepage-secret
-                  key: qbittorrent_user
-            - name: HOMEPAGE_VAR_QBITTORRENT_PASS
-              valueFrom:
-                secretKeyRef:
-                  name: homepage-secret
-                  key: qbittorrent_pass
+          envFrom:
+            - configMapRef:
+                name: secret-sentinel
+            - secretRef:
+                name: homepage-config-secret
           ports:
             - name: http
               containerPort: 3000
@@ -85,7 +40,7 @@ spec:
               mountPath: /app/public/images
       volumes:
         - configMap:
-            name: homepage
+            name: homepage-config
           name: homepage-config
         - name: logs
           emptyDir:
