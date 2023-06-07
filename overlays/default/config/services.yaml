@@ -102,6 +102,35 @@
         url: http://192.168.20.193
         key: "{{HOMEPAGE_VAR_PIHOLE_TOKEN}}"
 
+- Download Clients:
+  - MeTube:
+      icon: metube.png
+      href: https://metube.hl.ancalagon.black
+      ping: https://metube.hl.ancalagon.black
+      description: YouTube (and others) downloader.
+
+  - qbittorrent:
+      icon: qbittorrent.png
+      href: http://chiark.home:9077
+      ping: http://chiark.home:9077
+      description: Torrent client.
+      widget:
+        type: qbittorrent
+        url: http://chiark.home:9077
+        username: "{{HOMEPAGE_VAR_QBITTORRENT_USER}}"
+        password: "{{HOMEPAGE_VAR_QBITTORRENT_PASS}}"
+
+  - SABnzbd:
+      icon: sabnzbd-alt.png
+      href: https://sabnzbd.hl.ancalagon.black
+      ping: https://sabnzbd.hl.ancalagon.black
+      description: Usenet client.
+      widget:
+        type: sabnzbd
+        url: https://sabnzbd.hl.ancalagon.black
+        key: "{{HOMEPAGE_VAR_SABNZBD_KEY}}"
+
+- Connectivity:
   - Wireguard Dashboard:
       icon: wireguard.png
       href: https://vpn.hl.ancalagon.black
@@ -132,31 +161,3 @@
       widget:
         type: scrutiny
         url: http://chiark.home:8080
-
-- Download Clients:
-  - MeTube:
-      icon: metube.png
-      href: https://metube.hl.ancalagon.black
-      ping: https://metube.hl.ancalagon.black
-      description: YouTube (and others) downloader.
-
-  - qbittorrent:
-      icon: qbittorrent.png
-      href: http://chiark.home:9077
-      ping: http://chiark.home:9077
-      description: Torrent client.
-      widget:
-        type: qbittorrent
-        url: http://chiark.home:9077
-        username: "{{HOMEPAGE_VAR_QBITTORRENT_USER}}"
-        password: "{{HOMEPAGE_VAR_QBITTORRENT_PASS}}"
-
-  - SABnzbd:
-      icon: sabnzbd-alt.png
-      href: https://sabnzbd.hl.ancalagon.black
-      ping: https://sabnzbd.hl.ancalagon.black
-      description: Usenet client.
-      widget:
-        type: sabnzbd
-        url: https://sabnzbd.hl.ancalagon.black
-        key: "{{HOMEPAGE_VAR_SABNZBD_KEY}}"
