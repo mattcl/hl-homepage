@@ -131,7 +131,7 @@
         key: "{{HOMEPAGE_VAR_SABNZBD_KEY}}"
 
 - Connectivity:
-  - Wireguard Dashboard:
+  - Wireguard VPN Dashboard:
       icon: wireguard.png
       href: https://vpn.hl.ancalagon.black
       ping: https://vpn.hl.ancalagon.black
