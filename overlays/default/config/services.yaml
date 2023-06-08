@@ -131,6 +131,12 @@
         key: "{{HOMEPAGE_VAR_SABNZBD_KEY}}"
 
 - Connectivity:
+  - Tailscale Admin Console:
+      icon: tailscale-light.png
+      href: https://login.tailscale.com/admin/machines
+      ping: https://tailscale.com
+      description: VPN service dashboard
+
   - Wireguard VPN Dashboard:
       icon: wireguard.png
       href: https://vpn.hl.ancalagon.black
