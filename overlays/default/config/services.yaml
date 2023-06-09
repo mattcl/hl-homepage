@@ -137,12 +137,6 @@
       ping: https://tailscale.com
       description: VPN service dashboard
 
-  - Wireguard VPN Dashboard:
-      icon: wireguard.png
-      href: https://vpn.hl.ancalagon.black
-      ping: https://vpn.hl.ancalagon.black
-      description: View and register clients.
-
 - Cluster Tools:
   - Argo CD:
       icon: argocd.png
