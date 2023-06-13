@@ -23,11 +23,11 @@
       ping: http://sleeper-service.home:5000
       description: Primary NAS.
 
-  - Prowlarr:
-      icon: prowlarr.png
-      href: https://prowlarr.hl.ancalagon.black
-      ping: https://prowlarr.hl.ancalagon.black
-      description: Indexer management.
+  - Miniflux:
+      icon: miniflux-light.png
+      href: https://miniflux.hl.ancalagon.black
+      ping: https://miniflux.hl.ancalagon.black
+      description: RSS aggregator.
 
   - Jellyseerr:
       icon: jellyseerr.png
@@ -72,6 +72,12 @@
         url: https://radarr.hl.ancalagon.black
         key: "{{HOMEPAGE_VAR_RADARR_KEY}}"
         fields: ["wanted", "missing", "queued"]
+
+  - Prowlarr:
+      icon: prowlarr.png
+      href: https://prowlarr.hl.ancalagon.black
+      ping: https://prowlarr.hl.ancalagon.black
+      description: Indexer management.
 
 - Services:
   - 2FA:
