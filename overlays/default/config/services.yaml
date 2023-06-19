@@ -17,17 +17,35 @@
       ping: https://tandoor.ancalagon.black
       description: Recipe database and meal planning.
 
+  - Miniflux:
+      icon: miniflux-light.png
+      href: https://miniflux.hl.ancalagon.black
+      ping: https://miniflux.hl.ancalagon.black
+      description: RSS aggregator.
+
+  - Paperless:
+      icon: paperless-ngx.png
+      href: https://paperless.hl.ancalagon.black
+      ping: https://paperless.hl.ancalagon.black
+      description: Document archive
+
+  - Gitea:
+      icon: gitea.png
+      href: https://gitea.hl.ancalagon.black
+      ping: https://gitea.hl.ancalagon.black
+      description: Git server/package host
+
   - Synology NAS:
       icon: synology-dsm
       href: http://sleeper-service.home:5000
       ping: http://sleeper-service.home:5000
       description: Primary NAS.
 
-  - Miniflux:
-      icon: miniflux-light.png
-      href: https://miniflux.hl.ancalagon.black
-      ping: https://miniflux.hl.ancalagon.black
-      description: RSS aggregator.
+  - Prowlarr:
+      icon: prowlarr.png
+      href: https://prowlarr.hl.ancalagon.black
+      ping: https://prowlarr.hl.ancalagon.black
+      description: Indexer management.
 
   - Jellyseerr:
       icon: jellyseerr.png
@@ -73,12 +91,6 @@
         key: "{{HOMEPAGE_VAR_RADARR_KEY}}"
         fields: ["wanted", "missing", "queued"]
 
-  - Prowlarr:
-      icon: prowlarr.png
-      href: https://prowlarr.hl.ancalagon.black
-      ping: https://prowlarr.hl.ancalagon.black
-      description: Indexer management.
-
 - Services:
   - 2FA:
       icon: mdi-two-factor-authentication
@@ -91,12 +103,6 @@
       href: http://ci.papercode.net:8080
       ping: http://ci.papercode.net:8080
       description: Papercode CI server.
-
-  - Gitea:
-      icon: gitea.png
-      href: https://gitea.hl.ancalagon.black
-      ping: https://gitea.hl.ancalagon.black
-      description: Git server/package host
 
   - ntfy:
       icon: ntfy-light.png
