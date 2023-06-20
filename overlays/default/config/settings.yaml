@@ -5,10 +5,10 @@ background:
 color: zinc
 
 layout:
-  Media:
+  Services:
     style: row
     columns: 5
 
-  Services:
+  Media requests:
     style: row
     columns: 5
