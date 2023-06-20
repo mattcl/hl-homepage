@@ -11,29 +11,11 @@
       ping: https://stump.hl.ancalagon.black
       description: Digital book, comic, and OPDS server.
 
-  - tandoor:
-      icon: tandoor.png
-      href: https://tandoor.ancalagon.black
-      ping: https://tandoor.ancalagon.black
-      description: Recipe database and meal planning.
-
   - Miniflux:
       icon: miniflux-light.png
       href: https://miniflux.hl.ancalagon.black
       ping: https://miniflux.hl.ancalagon.black
       description: RSS aggregator.
-
-  - Paperless:
-      icon: paperless-ngx.png
-      href: https://paperless.hl.ancalagon.black
-      ping: https://paperless.hl.ancalagon.black
-      description: Document archive
-
-  - Gitea:
-      icon: gitea.png
-      href: https://gitea.hl.ancalagon.black
-      ping: https://gitea.hl.ancalagon.black
-      description: Git server/package host
 
   - Synology NAS:
       icon: synology-dsm
@@ -104,11 +86,23 @@
       ping: http://ci.papercode.net:8080
       description: Papercode CI server.
 
+  - Gitea:
+      icon: gitea.png
+      href: https://gitea.hl.ancalagon.black
+      ping: https://gitea.hl.ancalagon.black
+      description: Git server/package host
+
   - ntfy:
       icon: ntfy-light.png
       href: https://ntfy.hl.ancalagon.black
       ping: https://ntfy.hl.ancalagon.black
       description: Internal Pub/Sub notifications.
+
+  - Paperless:
+      icon: paperless-ngx.png
+      href: https://paperless.hl.ancalagon.black
+      ping: https://paperless.hl.ancalagon.black
+      description: Document archive
 
   - pi-hole:
       icon: pi-hole.png
@@ -119,6 +113,12 @@
         type: pihole
         url: http://192.168.20.193
         key: "{{HOMEPAGE_VAR_PIHOLE_TOKEN}}"
+
+  - tandoor:
+      icon: tandoor.png
+      href: https://tandoor.ancalagon.black
+      ping: https://tandoor.ancalagon.black
+      description: Recipe database and meal planning.
 
 - Download Clients:
   - MeTube:
