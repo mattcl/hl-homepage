@@ -1,15 +1,27 @@
-- Media:
+- Services:
+  - 2FA:
+      icon: mdi-two-factor-authentication
+      href: https://2fa.hl.ancalagon.black
+      ping: https://2fa.hl.ancalagon.black
+      description: Internal 2FA generator.
+
+  - Concourse Papercode:
+      icon: concourse.png
+      href: http://ci.papercode.net:8080
+      ping: http://ci.papercode.net:8080
+      description: Papercode CI server.
+
+  - Gitea:
+      icon: gitea.png
+      href: https://gitea.hl.ancalagon.black
+      ping: https://gitea.hl.ancalagon.black
+      description: Git server/package host
+
   - Jellyfin:
       icon: jellyfin.png
       href: http://chiark.home:8096
       ping: http://chiark.home:8096
       description: Media server.
-
-  - Stump:
-      icon: /icons/stump-logo--irregular.png
-      href: https://stump.hl.ancalagon.black
-      ping: https://stump.hl.ancalagon.black
-      description: Digital book, comic, and OPDS server.
 
   - Miniflux:
       icon: miniflux-light.png
@@ -17,12 +29,37 @@
       ping: https://miniflux.hl.ancalagon.black
       description: RSS aggregator.
 
-  - Prowlarr:
-      icon: prowlarr.png
-      href: https://prowlarr.hl.ancalagon.black
-      ping: https://prowlarr.hl.ancalagon.black
-      description: Indexer management.
+  - ntfy:
+      icon: ntfy-light.png
+      href: https://ntfy.hl.ancalagon.black
+      ping: https://ntfy.hl.ancalagon.black
+      description: Internal Pub/Sub notifications.
 
+  - Paperless:
+      icon: paperless-ngx.png
+      href: https://paperless.hl.ancalagon.black
+      ping: https://paperless.hl.ancalagon.black
+      description: Document archive
+
+  - Stump:
+      icon: /icons/stump-logo--irregular.png
+      href: https://stump.hl.ancalagon.black
+      ping: https://stump.hl.ancalagon.black
+      description: Digital book, comic, and OPDS server.
+
+  - Synology NAS:
+      icon: synology-dsm
+      href: http://sleeper-service.home:5000
+      ping: http://sleeper-service.home:5000
+      description: Primary NAS.
+
+  - tandoor:
+      icon: tandoor.png
+      href: https://tandoor.ancalagon.black
+      ping: https://tandoor.ancalagon.black
+      description: Recipe database and meal planning.
+
+- Media requests:
   - Jellyseerr:
       icon: jellyseerr.png
       href: https://jellyseerr.hl.ancalagon.black
@@ -67,48 +104,11 @@
         key: "{{HOMEPAGE_VAR_RADARR_KEY}}"
         fields: ["wanted", "missing", "queued"]
 
-- Services:
-  - 2FA:
-      icon: mdi-two-factor-authentication
-      href: https://2fa.hl.ancalagon.black
-      ping: https://2fa.hl.ancalagon.black
-      description: Internal 2FA generator.
-
-  - Concourse Papercode:
-      icon: concourse.png
-      href: http://ci.papercode.net:8080
-      ping: http://ci.papercode.net:8080
-      description: Papercode CI server.
-
-  - Gitea:
-      icon: gitea.png
-      href: https://gitea.hl.ancalagon.black
-      ping: https://gitea.hl.ancalagon.black
-      description: Git server/package host
-
-  - ntfy:
-      icon: ntfy-light.png
-      href: https://ntfy.hl.ancalagon.black
-      ping: https://ntfy.hl.ancalagon.black
-      description: Internal Pub/Sub notifications.
-
-  - Paperless:
-      icon: paperless-ngx.png
-      href: https://paperless.hl.ancalagon.black
-      ping: https://paperless.hl.ancalagon.black
-      description: Document archive
-
-  - Synology NAS:
-      icon: synology-dsm
-      href: http://sleeper-service.home:5000
-      ping: http://sleeper-service.home:5000
-      description: Primary NAS.
-
-  - tandoor:
-      icon: tandoor.png
-      href: https://tandoor.ancalagon.black
-      ping: https://tandoor.ancalagon.black
-      description: Recipe database and meal planning.
+  - Prowlarr:
+      icon: prowlarr.png
+      href: https://prowlarr.hl.ancalagon.black
+      ping: https://prowlarr.hl.ancalagon.black
+      description: Indexer management.
 
 - Download Clients:
   - MeTube:
