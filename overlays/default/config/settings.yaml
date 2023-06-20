@@ -7,7 +7,7 @@ color: zinc
 layout:
   Media:
     style: row
-    columns: 5
+    columns: 4
 
   Services:
     style: row
