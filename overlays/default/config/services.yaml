@@ -137,13 +137,13 @@
       icon: synology-dsm
       href: http://lasting-damage.home:5000
       ping: http://lasting-damage.home:5000
-      description: Primary NAS.
+      description: Synology DS923+.
 
   - sleeper-service:
       icon: synology-dsm
       href: http://sleeper-service.home:5000
       ping: http://sleeper-service.home:5000
-      description: Primary NAS.
+      description: Synology DS1618+.
 
 - Networking:
   - pi-hole:
