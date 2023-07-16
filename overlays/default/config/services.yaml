@@ -47,12 +47,6 @@
       ping: https://stump.hl.ancalagon.black
       description: Digital book, comic, and OPDS server.
 
-  - Synology NAS:
-      icon: synology-dsm
-      href: http://sleeper-service.home:5000
-      ping: http://sleeper-service.home:5000
-      description: Primary NAS.
-
   - tandoor:
       icon: tandoor.png
       href: https://tandoor.ancalagon.black
@@ -137,6 +131,19 @@
         type: sabnzbd
         url: https://sabnzbd.hl.ancalagon.black
         key: "{{HOMEPAGE_VAR_SABNZBD_KEY}}"
+
+- Storage:
+  - lasting-damage:
+      icon: synology-dsm
+      href: http://lasting-damage.home:5000
+      ping: http://lasting-damage.home:5000
+      description: Primary NAS.
+
+  - sleeper-service:
+      icon: synology-dsm
+      href: http://sleeper-service.home:5000
+      ping: http://sleeper-service.home:5000
+      description: Primary NAS.
 
 - Networking:
   - pi-hole:
