@@ -133,16 +133,15 @@
         key: "{{HOMEPAGE_VAR_SABNZBD_KEY}}"
 
 - Storage:
+  # we're not going to ping these so we don't wake them up
   - lasting-damage:
       icon: synology-dsm
       href: http://lasting-damage.home:5000
-      ping: http://lasting-damage.home:5000
       description: Synology DS923+.
 
   - sleeper-service:
       icon: synology-dsm
       href: http://sleeper-service.home:5000
-      ping: http://sleeper-service.home:5000
       description: Synology DS1618+.
 
 - Networking:
