@@ -51,7 +51,7 @@
         url: https://vavatch.home:8006
         username: "{{HOMEPAGE_VAR_PROXMOX_USER}}"
         password: "{{HOMEPAGE_VAR_PROXMOX_TOKEN}}"
-        fields: ["vms", "resources.cpu", "resources.menu"]
+        fields: ["vms", "resources.cpu", "resources.mem"]
 
   - Stump:
       icon: /icons/stump-logo--irregular.png
