@@ -174,7 +174,7 @@
       description: virtual environments
       widget:
         type: proxmox
-        url: http://vavatch.home:8006
+        url: https://vavatch.home:8006
         username: "{{HOMEPAGE_VAR_PROXMOX_USER}}"
         password: "{{HOMEPAGE_VAR_PROXMOX_TOKEN}}"
   - traefik-internal:
