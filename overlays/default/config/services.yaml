@@ -41,6 +41,18 @@
       ping: https://paperless.hl.ancalagon.black
       description: Document archive
 
+  - Proxmox:
+      icon: proxmox-light.png
+      href: https://vavatch.home:8006
+      ping: https://vavatch.home:8006
+      description: virtual environments
+      widget:
+        type: proxmox
+        url: https://vavatch.home:8006
+        username: "{{HOMEPAGE_VAR_PROXMOX_USER}}"
+        password: "{{HOMEPAGE_VAR_PROXMOX_TOKEN}}"
+        fields: ["vms", "resources.cpu", "resources.menu"]
+
   - Stump:
       icon: /icons/stump-logo--irregular.png
       href: https://stump.hl.ancalagon.black
@@ -167,16 +179,6 @@
       href: https://argocd.hl.ancalagon.black
       ping: https://argocd.hl.ancalagon.black
       description: GitOps deploys for kubernetes cluster.
-  - proxmox:
-      icon: proxmox.png
-      href: https://vavatch.home:8006
-      ping: https://vavatch.home:8006
-      description: virtual environments
-      widget:
-        type: proxmox
-        url: https://vavatch.home:8006
-        username: "{{HOMEPAGE_VAR_PROXMOX_USER}}"
-        password: "{{HOMEPAGE_VAR_PROXMOX_TOKEN}}"
   - traefik-internal:
       icon: traefik.png
       href: https://traefik.hl.ancalagon.black
