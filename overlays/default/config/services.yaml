@@ -15,7 +15,13 @@
       icon: gitea.png
       href: https://gitea.hl.ancalagon.black
       ping: https://gitea.hl.ancalagon.black
-      description: Git server/package host
+      description: Git server/package host.
+
+  - Grafana:
+      icon: grafana.png
+      href: http://monitoring.home:3000
+      ping: http://monitoring.home:3000
+      description: Metrics visualization.
 
   - Jellyfin:
       icon: jellyfin.png
@@ -39,13 +45,19 @@
       icon: paperless-ngx.png
       href: https://paperless.hl.ancalagon.black
       ping: https://paperless.hl.ancalagon.black
-      description: Document archive
+      description: Document archive.
+
+  - Prometheus:
+      icon: prometheus.png
+      href: http://monitoring.home:9090/graph
+      ping: http://monitoring.home:9090/graph
+      description: Monitoring and Alerting.
 
   - Proxmox:
       icon: proxmox-light.png
       href: https://vavatch.home:8006
       ping: https://vavatch.home:8006
-      description: virtual environments
+      description: virtual environments.
       widget:
         type: proxmox
         url: https://vavatch.home:8006
