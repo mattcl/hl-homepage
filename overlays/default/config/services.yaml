@@ -5,6 +5,12 @@
       ping: https://2fa.hl.ancalagon.black
       description: Internal 2FA generator.
 
+  - Argo CD:
+      icon: argocd.png
+      href: https://argocd.hl.ancalagon.black
+      ping: https://argocd.hl.ancalagon.black
+      description: GitOps deploys for kubernetes cluster.
+
   - Concourse Papercode:
       icon: concourse.png
       href: http://ci.papercode.net:8080
@@ -168,6 +174,15 @@
       href: http://sleeper-service.home:5000
       description: Synology DS1618+.
 
+  - scrutiny:
+      icon: scrutiny-light.png
+      href: http://chiark.home:8080
+      ping: http://chiark.home:8080
+      description: SMART disk monitoring dashboard.
+      widget:
+        type: scrutiny
+        url: http://chiark.home:8080
+
 - Networking:
   - pi-hole:
       icon: pi-hole.png
@@ -185,27 +200,14 @@
       ping: https://tailscale.com
       description: VPN service dashboard
 
-- Cluster Tools:
-  - Argo CD:
-      icon: argocd.png
-      href: https://argocd.hl.ancalagon.black
-      ping: https://argocd.hl.ancalagon.black
-      description: GitOps deploys for kubernetes cluster.
   - traefik-internal:
       icon: traefik.png
       href: https://traefik.hl.ancalagon.black
       ping: https://traefik.hl.ancalagon.black
       description: internal reverse proxy routing dashboard.
+
   - traefik-external:
       icon: traefik.png
       href: https://traefik-external.ancalagon.black
       ping: https://traefik-external.ancalagon.black
       description: external reverse proxy routing dashboard.
-  - scrutiny:
-      icon: scrutiny-light.png
-      href: http://chiark.home:8080
-      ping: http://chiark.home:8080
-      description: SMART disk monitoring dashboard.
-      widget:
-        type: scrutiny
-        url: http://chiark.home:8080
