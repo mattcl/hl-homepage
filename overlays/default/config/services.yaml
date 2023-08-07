@@ -51,19 +51,19 @@
       icon: prometheus.png
       href: http://monitoring.home:9090/graph
       ping: http://monitoring.home:9090/graph
-      description: Monitoring and Alerting.
+      description: Monitoring and alerting.
 
   - Proxmox:
       icon: proxmox-light.png
       href: https://vavatch.home:8006
       ping: https://vavatch.home:8006
       description: virtual environments.
-      widget:
-        type: proxmox
-        url: https://vavatch.home:8006
-        username: "{{HOMEPAGE_VAR_PROXMOX_USER}}"
-        password: "{{HOMEPAGE_VAR_PROXMOX_TOKEN}}"
-        fields: ["vms", "resources.cpu", "resources.mem"]
+      # widget:
+      #   type: proxmox
+      #   url: https://vavatch.home:8006
+      #   username: "{{HOMEPAGE_VAR_PROXMOX_USER}}"
+      #   password: "{{HOMEPAGE_VAR_PROXMOX_TOKEN}}"
+      #   fields: ["vms", "resources.cpu", "resources.mem"]
 
   - Stump:
       icon: /icons/stump-logo--irregular.png
