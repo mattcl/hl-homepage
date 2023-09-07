@@ -184,6 +184,18 @@
         url: http://chiark.home:8080
 
 - Networking:
+  - Omada Controller:
+      icon: omada.png
+      href: https://192.168.10.10
+      ping: https://192.168.10.10
+      description: Omada admin interface
+
+  - PfSense:
+      icon: pfsense.png
+      href: https://192.168.10.1
+      ping: https://192.168.10.1
+      description: Firewall/gateway
+
   - Tailscale Admin Console:
       icon: tailscale-light.png
       href: https://login.tailscale.com/admin/machines
