@@ -190,11 +190,11 @@
       ping: https://192.168.10.10
       description: Omada admin interface
 
-  - PfSense:
+  - pfSense:
       icon: pfsense.png
       href: https://192.168.10.1
       ping: https://192.168.10.1
-      description: Firewall/gateway
+      description: Firewall/router/gateway
 
   - Tailscale Admin Console:
       icon: tailscale-light.png
