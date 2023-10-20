@@ -55,7 +55,7 @@
 
   - Prometheus:
       icon: prometheus.png
-      href: http://monitoring.home:9090/graph
+      href: http://monitoring.home:9090/targets
       ping: http://monitoring.home:9090/graph
       description: Monitoring and alerting.
 
