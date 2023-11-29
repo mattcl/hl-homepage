@@ -9,6 +9,10 @@ namespace: homepage
 commonLabels:
   app.kubernetes.io/name: homepage
 
+images:
+  - name: "ghcr.io/gethomepage/homepage"
+    newTag: "0.7.4"
+
 configMapGenerator:
   - name: homepage-config
     files:
