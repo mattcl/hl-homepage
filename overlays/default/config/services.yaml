@@ -83,6 +83,12 @@
       ping: https://tandoor.ancalagon.black
       description: Recipe database and meal planning.
 
+  - Trilium:
+      icon: trilium.png
+      href: https://trilium.ancalagon.black
+      ping: https://trilium.ancalagon.black
+      description: Notes.
+
 - Media requests:
   - Jellyseerr:
       icon: jellyseerr.png
