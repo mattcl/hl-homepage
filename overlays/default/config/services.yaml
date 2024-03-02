@@ -17,11 +17,11 @@
       ping: http://ci.papercode.net:8080
       description: Papercode CI server.
 
-  - Dokuwiki:
-      icon: dokuwiki.png
-      href: https://dokuwiki.hl.ancalagon.black
-      ping: https://dokuwiki.hl.ancalagon.black
-      description: Wiki.
+  # - Dokuwiki:
+  #     icon: dokuwiki.png
+  #     href: https://dokuwiki.hl.ancalagon.black
+  #     ping: https://dokuwiki.hl.ancalagon.black
+  #     description: Wiki.
 
   - Gitea:
       icon: gitea.png
@@ -88,6 +88,12 @@
       href: https://tandoor.ancalagon.black
       ping: https://tandoor.ancalagon.black
       description: Recipe database and meal planning.
+
+  - TKU:
+      icon: dokuwiki.png
+      href: https://tku.hl.ancalagon.black
+      ping: https://tku.hl.ancalagon.black
+      description: The known universe (worldbuilding).
 
   - Trilium:
       icon: trilium.png
