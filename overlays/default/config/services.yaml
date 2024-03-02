@@ -17,6 +17,12 @@
       ping: http://ci.papercode.net:8080
       description: Papercode CI server.
 
+  - Dokuwiki:
+      icon: dokuwiki.png
+      href: https://dokuwiki.hl.ancalagon.black
+      ping: https://dokuwiki.hl.ancalagon.black
+      description: Wiki.
+
   - Gitea:
       icon: gitea.png
       href: https://gitea.hl.ancalagon.black
