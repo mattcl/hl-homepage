@@ -192,6 +192,11 @@
       href: http://sleeper-service.home:5000
       description: Synology DS1618+.
 
+  - yawning-angel:
+      icon: unraid
+      href: https://yawning-angel.home
+      description: Unraid Primary
+
   - scrutiny:
       icon: scrutiny-light.png
       href: http://chiark.home:8080
