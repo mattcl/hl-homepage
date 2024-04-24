@@ -146,6 +146,15 @@
         key: "{{HOMEPAGE_VAR_RADARR_KEY}}"
         fields: ["wanted", "missing", "queued"]
 
+  - Tdarr:
+      icon: tdarr
+      href: https://tdarr.hl.ancalagon.black
+      ping: https://tdarr.hl.ancalagon.black
+      description: Transcoding
+      widget:
+        type: tdarr
+        url: https://tdar.hl.ancalagon.black
+
   - Prowlarr:
       icon: prowlarr.png
       href: https://prowlarr.hl.ancalagon.black
