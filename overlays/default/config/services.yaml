@@ -153,7 +153,7 @@
       description: Transcoding
       widget:
         type: tdarr
-        url: https://tdar.hl.ancalagon.black
+        url: https://tdarr.hl.ancalagon.black
 
   - Prowlarr:
       icon: prowlarr.png
