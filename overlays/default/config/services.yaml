@@ -154,6 +154,7 @@
       widget:
         type: tdarr
         url: https://tdarr.hl.ancalagon.black
+        fields: ["queue", "processed", "saved"]
 
   - Prowlarr:
       icon: prowlarr.png
