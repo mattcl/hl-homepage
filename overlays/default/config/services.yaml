@@ -2,19 +2,19 @@
   - 2FA:
       icon: mdi-two-factor-authentication
       href: https://2fa.hl.ancalagon.black
-      ping: https://2fa.hl.ancalagon.black
+      siteMonitor: https://2fa.hl.ancalagon.black
       description: Internal 2FA generator.
 
   - Argo CD:
       icon: sh-argo-cd.png
       href: https://argocd.hl.ancalagon.black
-      ping: https://argocd.hl.ancalagon.black
+      siteMonitor: https://argocd.hl.ancalagon.black
       description: GitOps deploys for kubernetes cluster.
 
   - Argo Workflows:
       icon: sh-argo-cd.png
       href: https://argo.hl.ancalagon.black
-      ping: https://argo.hl.ancalagon.black
+      siteMonitor: https://argo.hl.ancalagon.black
       description: Kubernetes-native workflows.
 
   - Concourse Papercode:
@@ -32,13 +32,13 @@
   - Gitea:
       icon: gitea.png
       href: https://gitea.hl.ancalagon.black
-      ping: https://gitea.hl.ancalagon.black
+      siteMonitor: https://gitea.hl.ancalagon.black
       description: Git server/package host.
 
   - Grafana:
       icon: grafana.png
       href: http://monitoring.home:3000
-      ping: http://monitoring.home:3000
+      siteMonitor: http://monitoring.home:3000
       description: Metrics visualization.
 
   - Jellyfin:
@@ -50,19 +50,19 @@
   - Miniflux:
       icon: miniflux-light.png
       href: https://miniflux.hl.ancalagon.black
-      ping: https://miniflux.hl.ancalagon.black
+      siteMonitor: https://miniflux.hl.ancalagon.black
       description: RSS aggregator.
 
   - ntfy:
-      icon: ntfy-light.png
+      icon: sh-ntfy.png
       href: https://ntfy.hl.ancalagon.black
-      ping: https://ntfy.hl.ancalagon.black
+      siteMonitor: https://ntfy.hl.ancalagon.black
       description: Internal Pub/Sub notifications.
 
   - Paperless:
       icon: paperless-ngx.png
       href: https://paperless.hl.ancalagon.black
-      ping: https://paperless.hl.ancalagon.black
+      siteMonitor: https://paperless.hl.ancalagon.black
       description: Document archive.
 
   - Prometheus:
@@ -86,32 +86,32 @@
   - Stump:
       icon: /icons/stump-logo--irregular.png
       href: https://stump.hl.ancalagon.black
-      ping: https://stump.hl.ancalagon.black
+      siteMonitor: https://stump.hl.ancalagon.black
       description: Digital book, comic, and OPDS server.
 
   - tandoor:
-      icon: tandoor.png
+      icon: sh-tandoor-recipes.png
       href: https://tandoor.ancalagon.black
-      ping: https://tandoor.ancalagon.black
+      siteMonitor: https://tandoor.ancalagon.black
       description: Recipe database and meal planning.
 
   - TKU:
       icon: dokuwiki.png
       href: https://tku.hl.ancalagon.black
-      ping: https://tku.hl.ancalagon.black
+      siteMonitor: https://tku.hl.ancalagon.black
       description: The known universe (worldbuilding).
 
   - Trilium:
       icon: trilium.png
       href: https://trilium.hl.ancalagon.black
-      ping: https://trilium.hl.ancalagon.black
+      siteMonitor: https://trilium.hl.ancalagon.black
       description: Notes.
 
 - Media requests:
   - Jellyseerr:
       icon: jellyseerr.png
       href: https://jellyseerr.hl.ancalagon.black
-      ping: https://jellyseerr.hl.ancalagon.black
+      siteMonitor: https://jellyseerr.hl.ancalagon.black
       description: Media requests.
       widget:
         type: jellyseerr
@@ -122,7 +122,7 @@
   - Readarr:
       icon: readarr.png
       href: https://readarr.hl.ancalagon.black
-      ping: https://readarr.hl.ancalagon.black
+      siteMonitor: https://readarr.hl.ancalagon.black
       description: Book requests.
       widget:
         type: readarr
@@ -133,7 +133,7 @@
   - Sonarr:
       icon: sonarr.png
       href: https://sonarr.hl.ancalagon.black
-      ping: https://sonarr.hl.ancalagon.black
+      siteMonitor: https://sonarr.hl.ancalagon.black
       description: TV show requests.
       widget:
         type: sonarr
@@ -142,9 +142,9 @@
         fields: ["wanted", "queued"]
 
   - Radarr:
-      icon: radarr-light.png
+      icon: sh-radarr.png
       href: https://radarr.hl.ancalagon.black
-      ping: https://radarr.hl.ancalagon.black
+      siteMonitor: https://radarr.hl.ancalagon.black
       description: Movie requests.
       widget:
         type: radarr
@@ -155,7 +155,7 @@
   - Tdarr:
       icon: tdarr
       href: https://tdarr.hl.ancalagon.black
-      ping: https://tdarr.hl.ancalagon.black
+      siteMonitor: https://tdarr.hl.ancalagon.black
       description: Transcoding
       widget:
         type: tdarr
@@ -165,14 +165,14 @@
   - Prowlarr:
       icon: prowlarr.png
       href: https://prowlarr.hl.ancalagon.black
-      ping: https://prowlarr.hl.ancalagon.black
+      siteMonitor: https://prowlarr.hl.ancalagon.black
       description: Indexer management.
 
 - Download Clients:
   - MeTube:
       icon: metube.png
       href: https://metube.hl.ancalagon.black
-      ping: https://metube.hl.ancalagon.black
+      siteMonitor: https://metube.hl.ancalagon.black
       description: YouTube (and others) downloader.
 
   - qbittorrent:
@@ -187,9 +187,9 @@
         password: "{{HOMEPAGE_VAR_QBITTORRENT_PASS}}"
 
   - SABnzbd:
-      icon: sabnzbd-alt.png
+      icon: sh-sabnzbd.png
       href: https://sabnzbd.hl.ancalagon.black
-      ping: https://sabnzbd.hl.ancalagon.black
+      siteMonitor: https://sabnzbd.hl.ancalagon.black
       description: Usenet client.
       widget:
         type: sabnzbd
@@ -244,7 +244,7 @@
   - traefik-internal:
       icon: traefik.png
       href: https://traefik.hl.ancalagon.black
-      ping: https://traefik.hl.ancalagon.black
+      siteMonitor: https://traefik.hl.ancalagon.black
       description: internal reverse proxy routing dashboard.
 
   - traefik-external:
