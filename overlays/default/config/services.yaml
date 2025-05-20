@@ -6,10 +6,16 @@
       description: Internal 2FA generator.
 
   - Argo CD:
-      icon: argocd.png
+      icon: sh-argo-cd.png
       href: https://argocd.hl.ancalagon.black
       ping: https://argocd.hl.ancalagon.black
       description: GitOps deploys for kubernetes cluster.
+
+  - Argo Workflows:
+      icon: sh-argo-cd.png
+      href: https://argo.hl.ancalagon.black
+      ping: https://argo.hl.ancalagon.black
+      description: Kubernetes-native workflows.
 
   - Concourse Papercode:
       icon: concourse.png
