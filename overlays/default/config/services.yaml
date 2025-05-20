@@ -250,5 +250,5 @@
   - traefik-external:
       icon: traefik.png
       href: https://traefik-external.ancalagon.black
-      ping: https://traefik-external.ancalagon.black
+      siteMonitor: https://traefik-external.ancalagon.black
       description: external reverse proxy routing dashboard.
